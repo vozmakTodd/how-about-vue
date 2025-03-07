@@ -1,35 +1,33 @@
 # Техническое задание: Форма Входа
 
-## TLDR 
-- форкаем репу себе в хаб
-- ставим зависимости (например) `pnpm i` 
-- во время установки смотрим макет -> [ссылка](./wiki/ui_example.png)
-- запускаем проект (например) `pnpm dev`
-- кодим
-- в конце выслать ссылку на готовую репу с исходниками
+<img src="./wiki/ui_example.png" alt="UI Example" width="480"/>
 
+## TLDR
+  - форкаем репу себе в хаб
+  - ставим зависимости (например) `pnpm i`
+  - во время установки смотрим макет -> [ссылка](https://www.figma.com/design/TK943uETUC5YsWPSUGKukw/Auth-page-UI---test?node-id=0-1&t=IiCvImjwQdEslX8j-1)
+  - запускаем проект (например) `pnpm dev`
+  - кодим
+  - в конце выслать ссылку на готовую репу с исходниками
 
 ## Стек
-- Vue 3
-- TypeScript
-- ESNext
-- CSS4 (scoped)
+  - Vue 3
+  - TypeScript
+  - ESNext
+  - CSS4 (scoped)
 
 ## Вспомогательные ресурсы
-- [Ссылка на макет](./wiki/ui_example.png)
-- Рекомендованные шрифты: `Inter`, `Roboto`, `Open Sans`, `Lato` (уже подключены через `vite`)
-- `SVG` иконки уже добавлены в проект
-  - для прямой вставки использовать: `<img src="./assets/social-yandex.svg" alt="" class="icon email" />`
-  - для inline вставки: `<RawIcon name="password" color="black"></RawIcon>`
+  - Рекомендованные шрифты: `Inter`, `Roboto`, `Open Sans`, `Lato` (уже подключены через `vite`)
+  - `SVG` иконки уже добавлены в проект
+    - для прямой вставки использовать: `<img src="./assets/social-yandex.svg" alt="" class="icon email" />`
+    - для inline вставки: `<RawIcon name="password" color="black"></RawIcon>`
+  - [Ссылка на макет](https://www.figma.com/design/TK943uETUC5YsWPSUGKukw/Auth-page-UI---test?node-id=0-1&t=IiCvImjwQdEslX8j-1)
 
 ## Описание
-Задача состоит в создании приложения на `Vue 3`, используя `TypeScript`.
-
-Стили должны быть написаны вручную, без использования UI-компонентов или библиотек вроде `Tailwind CSS`. 
-
-Компоненты создаются с использованием `<script setup lang="ts">`. 
-
-Акцентировать внимание на применение `defineProps()` и `defineEmits()` в сочитании `TypeScript`. Показать навык использования `composable` функций.
+ - Задача состоит в создании приложения на `Vue 3`, используя `TypeScript`.
+ - Стили должны быть написаны вручную, без использования UI-компонентов или библиотек вроде `Tailwind CSS`.
+ - Компоненты создаются с использованием `<script setup lang="ts">`.
+ - Акцентировать внимание на применение `defineProps()` и `defineEmits()` в сочитании `TypeScript`. Показать навык использования `composable` функций.
 
 ---
 
@@ -98,8 +96,6 @@
 (ℹ️) -- выполнение данных требований будет плюсом.
 
 Рекомендуется выполнить минимальную часть за 1 час, реализация остальных частей задания - будет плюсом.
-
-
 
 ---
 
