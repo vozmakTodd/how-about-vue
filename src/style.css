@@ -1,9 +1,10 @@
 :root {
-  font-family: Inter, Roboto, 'Open Sans', Lato, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Inter, Roboto, "Open Sans", Lato, system-ui, Avenir, Helvetica,
+    Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
   font-style: normal;
-  
+
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
@@ -12,6 +13,26 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --color-primary: rgba(21, 122, 254, 1);
+  --color-secondary: rgba(150, 152, 153, 1);
+  --color-bg: rgba(245, 247, 249, 1);
+}
+
+html {
+  font-size: 16px;
+}
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
 }
 
 a {
